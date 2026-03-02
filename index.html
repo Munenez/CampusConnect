@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusConnect - Welcome</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;   /* Horizontal center */
+            align-items: center;       /* Vertical center */
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+        }
+
+        .hero {
+            text-align: center;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px;
+            display: inline-block;
+            background: #ddd;
+            color: #000;
+        }
+
+        .btn-primary {
+            background: #007bff;
+            color: #fff;
+        }
+
+        .btn-exit {
+            background: #dc3545;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <div class="container">
+        <h1>🎓 CampusConnect</h1>
+        <h2>Welcome to CampusConnect 👋</h2>
+        <p>Your personalized campus event hub</p>
+
+        <div style="margin-top: 20px;">
+            <a href="login.php" class="btn btn-primary">Login</a>
+            <a href="register.php" class="btn">Create Account</a>
+            <br><br>
+            <button class="btn btn-exit" onclick="exitPage()">Exit</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function exitPage() {
+        window.location.href = "about:blank";
+    }
+</script>
+
+
+</body>
+</html>
