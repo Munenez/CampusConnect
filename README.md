@@ -31,21 +31,20 @@ It allows students and administrators to interact through announcements, events,
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/Login page.png" width="400">
-  <img src="screenshots/Dashboard page.png" width="400">
+  <img src="screenshots/Login page.png" width="700">
+  <img src="screenshots/Dashboard page.png" width="700">
 </p>
 
 <p align="center">
-  <img src="screenshots/Events.png" width="400">
-  <img src="screenshots/Events1.png" width="400">
+  <img src="screenshots/Events.png" width="700">
+  <img src="screenshots/Events1.png" width="700">
 </p>
 
 <p align="center">
-  <img src="screenshots/First Page.png" width="400">
-  <img src="screenshots/Register Page.png" width="400">
-  <img src="screenshots/Registered Events.png" width="400">
+  <img src="screenshots/First Page.png" width="700">
+  <img src="screenshots/Register Page.png" width="700">
+  <img src="screenshots/Registered Events.png" width="700">
 </p>
----
 
 ## ⚙️ Installation Guide
 
